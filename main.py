@@ -42,6 +42,9 @@ ntfy_username = os.environ.get("NTFY_USERNAME")
 ntfy_password = os.environ.get("NTFY_PASSWORD")
 ntfy_token = os.environ.get("NTFY_TOKEN")
 
+# 等待 3 秒，防止 24:00 苦力怕论坛还没有刷新签到
+time.sleep(3)
+
 # 设置日志级别和格式
 if debug == 1:
     logging.basicConfig(
