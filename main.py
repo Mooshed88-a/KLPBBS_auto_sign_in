@@ -1,5 +1,6 @@
 # GitHub: https://github.com/xyz8848/KLPBBS_auto_sign_in
 
+import time
 import http
 import logging
 import os
